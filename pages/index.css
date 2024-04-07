@@ -1,9 +1,9 @@
 .page {
 width:100%;
-min-width: 1100 px;
-max-width: 1600 px;
+min-width: 1100px;
+max-width: 1600px;
 margin: 0 auto;
 font-family: 'inter' , arial , sans-serif;
-font-size: 16 px;
-line-height: 20 px;
+font-size: 16px;
+line-height: 20px;
 }
