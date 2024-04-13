@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Bem vindo ao nosso café" />
+    <meta
+      name="description"
+      content="Quem não gosta de café, bom sujeito não é!"
+    />
     <meta name="author" content="Tasnim Kheir" />
-    <meta name="keywords" content="HTML, CSS, Café" />
+    <meta name="keywords" content="café, html, css" />
     <title>Triple Expresso</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <!--Fonts-->
-    <!--Inter-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,79 +22,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
       rel="stylesheet"
     />
-
-    <!--Noto serif-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <!--Fonts-->
   </head>
+
   <body>
     <div class="page">
       <header class="header">
         <nav class="nav">
+
           <img
             src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo da Coffeshop Triple Express na cor preta"
             class="nav__logo"
-            alt="logo coffee shop dark" />
+          />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#Recipes">Receitas</a>
+              <a class="nav__link" href="#recipes"> Receitas </a>
             </li>
             <li>
-              <a class="nav__link" href="#Reservation">Reservar uma mesa</a>
+              <a class="nav__link" href="#reservation"> Reservar uma mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contatos</a>
+              <a class="nav__link" href="#"> Contatos</a>
             </li>
           </ul>
         </nav>
-        <div class="header__content">
-            <!--Title-->
-            <div>
-                <h1 class =header__title> 
-                    <span class= "header__span-accent">Café especial </span> 
-                   na biblioteca Triple Peaks</h1> 
-            <!--Description-->
-               <p class="header__description">
-                 Esta é nossa zona de estudo! Temos aquele cafezinho para energizar você e
-                 vibrações aconchegantes para soltar a criatividade.
-               </p> 
-            </div>
-            <!--Image-->
-         <img
-            src="./images/inside_coffee_shop.png"
-            alt="inside coffee shop"
-            class="header__image"/>
-        </div>
+
+        <h1 class="header__title">
+          <span class="header__span-acent"> Café especial </span>
+          na biblioteca Triple Peaks
+        </h1>
+
+       
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+
+       
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Ilustração 'Dentro da cafeteria'"
+          class="header__image"
+        />
+
         <div class="header__footer">
-            <div>
-            <p class="header__paragraph"> Horários: </p>
-            <p class="header__paragraph"> Segunda a Sexta (10:00 - 19:00) </p>
-            <p class="header__paragraph"> Sábado a domingo (11:00 - 18:00) </p>
-           </div>
-           <p class="header__paragraph"> 200 Success Avenue, a cidade de Triple Peaks</p>
+          <div>
+            <p class="header__paragraph">Horários:</p>
+            <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
+
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
         </div>
       </header>
-      
+
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
@@ -119,7 +119,7 @@
                 <h4 class="recipes recipes__video-captiontext">
                   Receita Aeropress
                 </h4>
-                <h4 class="recipes recipes__video-captiontext">5 min</h4>
+                <h4 class="recipes recipes__video-captiontext">~5 min</h4>
               </div>
             </div>
 
@@ -140,17 +140,22 @@
                 <h4 class="recipes recipes__video-captiontext">
                   Receita de Prensa Francesa
                 </h4>
-                <h4 class="recipes recipes__video-captiontext">15 min</h4>
+                <h4 class="recipes recipes__video-captiontext">~15 min</h4>
               </div>
             </div>
           </div>
+        
         </section>
 
         <section class="reservation" id="reservation">
+        
         </section>
+       
       </main>
 
       <footer class="footer"></footer>
     </div>
+  
   </body>
 </html>
+
