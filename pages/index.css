@@ -1,47 +1,15 @@
 .page {
-min-width: 1100px;
-max-width: 1600px;
-margin: 0 auto;
-font-family: 'inter' , arial , sans-serif;
-font-size: 16px;
-line-height: 20px;
-background-color:#ffffff;
-background-image: url('../images/background_header.svg');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-.nav__logo{
-    position: relative;
+  width: 100%;
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+  background-color: white;
 }
 
-.nav__links {
-    column-gap: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 0;
-    list-style-type: none;
-    margin: 8px 0 0;
-    color: #2f80ed;
-    margin-right: 80px;
-    row-gap: 20px;
-  }
-  
-  .nav__link {
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 500;
-    color: #000000;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 30px;
-   
-   
-  }
- 
-  .header{
+.header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,161 +18,309 @@ background-size: cover;
   max-height: 800px;
   position: relative;
   box-sizing: border-box;
-  color: #000;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
+}
 
-  }
+/*   INICIO CSS NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 80px;
+}
 
-  
+.nav__logo {
+  display: flex;
+  flex-direction: row;
+  height: 39px;
+  width: 105px;
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+}
 
-  .header__title{
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 58px;
-    line-height: 72px;
-    margin-top: 183px;
-    letter-spacing: -1px;
-   
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 20px;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-right: 80px;
+}
 
-  }
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+/*   FINAL CSS NAV */
 
-  .header__span-accent{
-    font-family: 'noto serif';
-    font-style: italic;
-    font-weight: normal;
-    font-size: 58px;
-    line-height: 72px;
-    color: #2f80ed;
-    display:block;
-    max-width: 709px;
-    
-  }
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .header__description{
-    font-family: 'noto serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 683px;
-    margin-top: 28px;
+/*  na biblioteca Triple Peaks*/
+.header__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  padding-top: 183px;
+  padding-left: 80px;
+}
 
-  }
-  
-  .header__image{
-    width: 646px;
-    height: 568px;
-    z-index: 1;
-    position: absolute;
-    top: 124px;
-    right:5px;
-  }
- 
-  .header__footer{
-    font-family: 'inter';
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-    align-items: flex-end;
-    box-sizing: border-box;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
-    margin-bottom: 40px;
-    margin-right: 80px;
-  }
+/*  café especial*/
 
-  .header__paragraph{
-    justify-content: flex-end;
-    margin:0;
-  }
+.header__span-acent {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  max-width: 709px;
+  display: block;
+}
 
-  .content {
-    display: flex;
-    flex-direction: column;
-    background-color: #0a2850;
-    background-image: url("../images/background_recipes.svg");
-    position: relative;
-    box-sizing: border-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .recipes {
-    position: relative;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .recipes__title {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 80px;
-    padding-bottom: 24px;
-    max-width: 580px;
-    margin: 0;
-  }
-  
-  .recipes__subtitle {
-    font-family: "Noto Serif", "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: white;
-    padding-left: 80px;
-    padding-bottom: 80px;
-    max-width: 438px;
-  }
-  
-  .recipes__videos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    column-gap: 40px;
-    padding-bottom: 215px;
-  }
-  
-  .recipes__video-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  .recipes__iframe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 480px;
-    height: 273px;
-  }
-  
-  .recipes__video-caption {
-    padding-top: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .recipes__video-captiontext {
-    color: white;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  
+/* Esta é a zona de estudo ...*/
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 638px;
+  margin-left: 80px;
+  margin-top: 28px;
+}
+
+/* Imagem da cafeteria */
+.header__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 568px;
+  height: 646px;
+  padding-right: 5px;
+  padding-left: 800px;
+  position: absolute;
+  margin-top: 124px;
+}
+
+/* rodapé */
+.header__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  box-sizing: border-box;
+  margin-top: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+
+/* coluna de endereço*/
+.header__paragraph {
+  justify-content: flex-end;
+  margin: 0;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a2850;
+  background-image: url("../images/background_recipes.svg");
+  position: relative;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.recipes {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.recipes__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-bottom: 24px;
+  max-width: 580px;
+  margin: 0;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  max-width: 438px;
+}
+
+.recipes__videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  column-gap: 40px;
+  padding-bottom: 215px;
+}
+
+.recipes__video-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.recipes__iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 480px;
+  height: 273px;
+}
+
+.recipes__video-caption {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recipes__video-caption2 {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  position: relative;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  padding-top: 100px;
+}
+
+.form {
+  border: none;
+}
+
+.reservation__form-input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin: auto;
+}
+
+.reservation__form {
+  max-width: 385px;
+  width: 100%;
+  margin-bottom: 32px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reservation__form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.reservation__form-buton {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #2f80ed;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation__form-terms_of_use {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reservation__item_check-align {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  margin-top: 32px;
+}
