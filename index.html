@@ -8,7 +8,7 @@
       content="Quem não gosta de café, bom sujeito não é!"
     />
     <meta name="author" content="Tasnim Kheir" />
-    <meta name="keywords" content="café, html, css" />
+    <meta name="keywords" content="café web design" />
     <title>Triple Expresso</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
@@ -44,12 +44,14 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-
+         
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Logotipo da Coffeshop Triple Express na cor preta"
             class="nav__logo"
           />
+
+          
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#recipes"> Receitas </a>
@@ -62,6 +64,7 @@
             </li>
           </ul>
         </nav>
+       
 
         <h1 class="header__title">
           <span class="header__span-acent"> Café especial </span>
@@ -119,7 +122,7 @@
                 <h4 class="recipes recipes__video-captiontext">
                   Receita Aeropress
                 </h4>
-                <h4 class="recipes recipes__video-captiontext">~5 min</h4>
+                <h4 class="recipes recipes__video-captiontext">5 min</h4>
               </div>
             </div>
 
@@ -140,22 +143,107 @@
                 <h4 class="recipes recipes__video-captiontext">
                   Receita de Prensa Francesa
                 </h4>
-                <h4 class="recipes recipes__video-captiontext">~15 min</h4>
+                <h4 class="recipes recipes__video-captiontext">15 min</h4>
               </div>
             </div>
           </div>
-        
+          
         </section>
 
         <section class="reservation" id="reservation">
-        
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="form reservation__form">
+           
+            <fieldset class="form reservation__form-item">
+              <label
+                for="name"
+                class="reservation__form reservation__form-label"
+              >
+                
+                Nome*</label
+              >
+              <input
+                type="text"
+                class="reservation__form reservation__form-input"
+                id="name"
+                name="name"
+                placeholder="Nome e Sobrenome"
+                required
+              />
+             
+
+              <label
+                for="invite_number"
+                class="reservation__form reservation__form-label"
+              >
+                Número de Convidados*</label
+              >
+              <input
+                type="number"
+                class="reservation__form reservation__form-input"
+                id="invite_number"
+                name="invite_number"
+                placeholder="1 - 8"
+                min="1"
+                max="8"
+                required
+              />
+
+              <label
+                for="date-hour"
+                class="reservation__form reservation__form-label"
+              >
+                Data e Hora*</label
+              >
+              <input
+                type="date"
+                class="reservation__form reservation__form-input"
+                id="date-hour"
+                name="date-hour"
+                required
+              />
+
+              <label
+                for="mail"
+                class="reservation__form reservation__form-label"
+              >
+                Seu e-mail*</label
+              >
+              <input
+                type="email"
+                class="reservation__form reservation__form-input"
+                id="mail"
+                name="mail"
+                placeholder="email@email.com"
+                required
+              />
+
+              <button
+                type="submit"
+                class="reservation__form reservation__form-buton"
+              >
+                Reservar uma mesa
+              </button>
+
+              <label
+                for="bold-heading"
+                class="reservation__label reservation__label_check"
+              >
+                <input
+                  type="checkbox"
+                  name="extra-option"
+                  id="bold-heading"
+                  class="reservation__item reservation__item_check-align"
+                  value="bold-heading"
+                />Eu concordo com os termos de uso</label
+              >
+            </fieldset>
+          </form>
         </section>
-       
       </main>
 
       <footer class="footer"></footer>
     </div>
-  
+   
   </body>
 </html>
-
