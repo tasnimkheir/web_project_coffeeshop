@@ -1,0 +1,9 @@
+.content {
+    background-color: #0a2750;
+    color: #fff;
+    background-image: url("../images/background_recipes.svg");
+    position: relative;
+    box-sizing: border-box;
+    background-size: cover;
+    align-items: center;
+  }
