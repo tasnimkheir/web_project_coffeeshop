@@ -1,5 +1,5 @@
 .form {
-    /*Bloco 2*/
+    
     border: none;
     display: flex;
     flex-direction: column;
@@ -8,11 +8,11 @@
   }
   
   .form__item {
-    /*Bloco 3*/
+  
   }
   
   .form__label {
-    /*Bloco 4*/
+
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -28,7 +28,7 @@
   }
   
   .form__input {
-    /*Bloco 5*/
+  
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -42,7 +42,7 @@
   }
   
   .form__button {
-    /*Bloco 6*/
+  
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -64,7 +64,7 @@
   }
   
   .form__label_checkbox {
-    /*Bloco 7*/
+    
     margin-top: 32px;
     flex-direction: row;
     justify-content: center;
