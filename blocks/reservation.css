@@ -12,7 +12,7 @@
   }
   
   .reservation__title {
-    /*Bloco 1*/
+    
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -30,6 +30,6 @@
   }
   
   .reservation__form {
-    /*Bloco 2*/
+    
     box-sizing: border-box;
   }
